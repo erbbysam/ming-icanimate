@@ -14,6 +14,18 @@ Copy example.html & ming.php into a webserver with PHP & the ming plugin install
 
 I have also hosted it myself at http://www.icanimate.com/watch/github/example.html
 
+### How to use
+Create an animation or means of creating an animation with the script format below and embed it or load it with ming.php using the following html:
+```html
+<object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="550" height="400" id="home" align="">
+	<param name="movie" value='ming.php'>
+	<param name="quality" value="high">
+	<param name="bgcolor" value="#000033">
+	<embed src='ming.php' quality="high" bgcolor="#000033" width="550" height="400" name="home" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</object>
+```
+Note that you could also call ming.php here with a $_GET variable, ie. 'ming.php?animation=32'
+
 ### script format
 This file takes a script in the format found here http://www.icanimate.com/create/filespec.php or below:
 
