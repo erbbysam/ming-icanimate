@@ -10,7 +10,7 @@ To install ming (with php5 & ubuntu): sudo apt-get install php5-ming
 This is a generic script to flash converter that is written in PHP.
 
 ### example
-Copy example.html above and ming.php into a webserver with PHP & the ming plugin and navigate to example.html!
+Copy example.html & ming.php into a webserver with PHP & the ming plugin installed and navigate to example.html!
 
 I have also hosted it myself at http://www.icanimate.com/watch/github/example.html
 
