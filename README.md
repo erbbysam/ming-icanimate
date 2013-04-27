@@ -7,7 +7,7 @@ Ming is a PHP plugin that renders flash. This is the drawing script used by http
 To install ming (with php5 & ubuntu): sudo apt-get install php5-ming
 
 ### ming.php
-This is a generic script to flash converter that is written in PHP.
+This script creates flash animations from a text script using PHP.
 
 ### example
 Copy example.html & ming.php into a webserver with PHP & the ming plugin installed and navigate to example.html!
