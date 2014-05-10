@@ -36,7 +36,7 @@ $frame = explode("|", $animation);
 $f = 0;
 
 /* load font */
-$font = new SWFFont("_sans");
+$font = new SWFBrowserFont("_sans");
 
 
 /* main loop */
